@@ -1,0 +1,40 @@
+.flex-container{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+  margin-top: 100px;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+input[type=text], input[type=date],select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input.b{
+  visibility: hidden;
+}
+
+button {
+  background-color: #73ff6e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 30px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

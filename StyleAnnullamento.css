@@ -1,0 +1,36 @@
+.flex-container{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 300px;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #73ff6e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
